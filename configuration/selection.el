@@ -11,6 +11,8 @@
   (setq deactivate-mark nil))
 (ad-activate 'kill-ring-save)
 
+; A comfortable Ctrl-Shift-Up/Down line moving
+
 (require 'move-text)
 
 (global-set-key (kbd "C-S-<up>") 'move-text-up)
