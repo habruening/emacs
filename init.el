@@ -1,6 +1,7 @@
 (load "~/.emacs.d/configuration/package_management.el")
 (load "~/.emacs.d/configuration/basic.el")
 (load "~/.emacs.d/configuration/selection.el")
+(load "~/.emacs.d/configuration/gui.el")
 
 
 
