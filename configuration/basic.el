@@ -9,3 +9,8 @@
 
 ; Disable the annoying beep
 (setq visible-bell 1)
+
+; Use Undo Tree
+(global-undo-tree-mode)
+(global-set-key (kbd "C-z") 'undo-tree-visualize)
+

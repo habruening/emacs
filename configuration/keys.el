@@ -7,4 +7,3 @@
 (global-set-key (kbd "C-c") 'kill-ring-save)
 (global-set-key (kbd "C-v") 'yank)
 (global-unset-key (kbd "C-x u"))
-(global-set-key (kbd "C-z") 'undo)
